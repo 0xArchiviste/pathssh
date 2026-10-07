@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pathssh"
+version = "0.1.0"
+description = "Select a responsive SSH path and reconnect to persistent remote sessions"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+dependencies = []
+
+[project.scripts]
+pathssh = "pathssh:main"
+
+[tool.setuptools]
+py-modules = ["pathssh"]

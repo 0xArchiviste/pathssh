@@ -1,0 +1,13 @@
+{
+  "hosts": {
+    "desktop": {
+      "ssh_alias": "desktop",
+      "host_key_alias": "desktop",
+      "command": ["herdr"],
+      "paths": [
+        {"name": "tailscale", "address": "desktop.example.ts.net", "port": 22},
+        {"name": "netbird", "address": "desktop.example.netbird.cloud", "port": 22}
+      ]
+    }
+  }
+}
